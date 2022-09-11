@@ -73,7 +73,7 @@ else()
 endif()
 
 
-target_link_libraries(val3dity ${CGAL_LIBRARIES} ${CGAL_3RD_PARTY_LIBRARIES} CGAL::Eigen3_support ${GEOS_LIBRARY} ${Boost_SYSTEM_LIBRARY} ${Boost_FILESYSTEM_LIBRARY} thirdparty)
+target_link_libraries(val3dity CGAL ${CGAL_3RD_PARTY_LIBRARIES} CGAL::Eigen3_support ${GEOS_LIBRARY} ${Boost_SYSTEM_LIBRARY} ${Boost_FILESYSTEM_LIBRARY} thirdparty)
 
 install(TARGETS val3dity DESTINATION bin)
 

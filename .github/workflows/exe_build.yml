@@ -31,7 +31,7 @@ jobs:
         cd Release
         7z a val3dity-win64.zip .\Release\*
     - name: Upload binary files as artifact
-      uses: actions/upload-artifact@master
+      uses: actions/upload-artifact@main
       with:
         name: val3dity-win64
         path: Release/val3dity-win64.zip

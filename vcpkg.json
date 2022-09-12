@@ -1,6 +1,6 @@
 {
     "name": "val3dity",
-    "version-string": "2.2.0",
+    "version-string": "2.3.0",
     "dependencies": [
         "boost-program-options",
         "boost-geometry",
@@ -10,8 +10,7 @@
         "boost-filesystem",
         "cgal",
         "geos",
-        "eigen3",
-        "gmp"
+        "eigen3"
     ]
 
 }

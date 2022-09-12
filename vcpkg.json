@@ -10,7 +10,8 @@
         "boost-filesystem",
         "cgal",
         "geos",
-        "eigen3"
+        "eigen3",
+        "gmp"
     ]
 
 }
